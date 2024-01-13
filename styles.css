@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add this style to your CSS */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #668bc6;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: none;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.navbar a:hover {
+    background-color: #a8c0f0;
+    color: black;
+}
+
+
+.landing, .dashboard, .profile, .login, .register, .appointment, .family, .contact{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #aad6ec;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #84aef0;
+    color: white;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+ 
+.register, .login .family .contact{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #aad6ec;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: flex;
+    height: 50px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-color: #668bc6;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: table-column;
+    align-content: center;
+    
+}
+
+button {
+    margin-top: 10px;
+    width: 35%;
+    background-color: #6f94ce;
+    color: #ffffff;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    border-radius: 100px;
+    size: 2px;
+}
+
+textarea#medicalConditions,
+textarea#pwdSpecify,
+
+textarea#address {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+}
+div.banner {
+    position: sticky;
+height: max-content;
+}
+
+.services {
+    border: 100px;
+}
